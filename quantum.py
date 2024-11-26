@@ -7,7 +7,7 @@ import os
 import subprocess
 
 try:
-    import matplotlib.pyplot as plt
+    pip install matplotlib
 except ImportError:
     print("Matplotlib is not installed. Installing now...")
     subprocess.check_call([os.sys.executable, "-m", "pip", "install", "matplotlib"])
