@@ -1,18 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[3]:
-
-import os
-import subprocess
-
-try:
-    pip install matplotlib
-except ImportError:
-    print("Matplotlib is not installed. Installing now...")
-    subprocess.check_call([os.sys.executable, "-m", "pip", "install", "matplotlib"])
-    print("Matplotlib installed successfully! Please restart the script.")
-    exit()
+pip install matplotlib
 
 import streamlit as st
 import numpy as np
