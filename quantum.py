@@ -3,6 +3,16 @@
 
 # In[3]:
 
+import os
+import subprocess
+
+try:
+    import matplotlib.pyplot as plt
+except ImportError:
+    print("Matplotlib is not installed. Installing now...")
+    subprocess.check_call([os.sys.executable, "-m", "pip", "install", "matplotlib"])
+    print("Matplotlib installed successfully! Please restart the script.")
+    exit()
 
 import streamlit as st
 import numpy as np
