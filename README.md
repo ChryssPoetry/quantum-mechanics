@@ -62,12 +62,3 @@ Add more quantum gates and custom circuits.
 Integrate quantum hardware via IBM Qiskit for real quantum experiments.
 Expand the Energy Crisis section with detailed case studies or interactive tools.
 Incorporate user authentication for saving simulations.
-This app is an excellent showcase of how quantum computing concepts can 
-be presented interactively and applied to real-world problems like the energy crisis. 
-If you’d like further enhancements or deployment guidance, feel free to ask! 🚀
-
-
-
-
-
-
